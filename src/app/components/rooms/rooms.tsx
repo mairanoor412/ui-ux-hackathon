@@ -15,7 +15,6 @@ const Rooms = ()=>{
                     <h1 className="text-[25px] font-[700] sm-text-[20px] sm:w-[200px] md:text-[40px] md:w-[300px] leading-[48px] text-[#3A3A3A]  lg:w-[422px]"> 50+ Beautiful rooms inspiration </h1>
                     <p className="text-[12px]  font-[500] sm:text-[10px] sm:w-[200px] md:text-[16px] md:w-[300px] text-[#616161]  lg:w-[368px]"> Our designer already made a lot of beautiful prototipe of rooms that inspire you </p> 
                 </div>
-            <button className="w-[176px] py-[12px] bg-[#B88E2F] text-[16px] font-[600] "> Explore More </button>
             </div>
             
 
