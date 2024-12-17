@@ -48,7 +48,7 @@ const HeroSection = ()=>{
         <div className="w-full   overflow-x-hidden relative">
             
             {/* background image */}
-            <div className="sm:h-[45vh] md:h-[70vh] lg:h-[90vh] xl:h-[716.83px]">
+            <div className="sm:h-[300px] md:h-[70vh] lg:h-[90vh] xl:h-[716.83px]">
             <div className="bg-[url('/image/hero-section/scandinavian-interior-mockup-wall-decal-background-1.png')] h-[30vh] sm:h-[45vh] md:h-[70vh] lg:h-[90vh] xl:h-[716.83px]  bg-cover bg-center   ">
            </div>
             {/* content */}
