@@ -28,7 +28,7 @@ const Footer = ()=>{
                       </ul>
 
                       {/* 3 */}
-                      <ul className="flex flex-col items-center gap-3 xl:justify-between xl:pb-[70px] xl:items-start">
+                      <ul className="flex flex-col items-center gap-3 pt-5 xl:justify-between xl:pb-[70px] xl:items-start">
                         <li className="text-[#9F9F9F] text-[16px] font-[500]">Help </li>
                         <li className="text-[16px] font-[500] text-primary">Payment Options</li>
                         <li className="text-[16px] font-[500] text-primary"> Returns</li>

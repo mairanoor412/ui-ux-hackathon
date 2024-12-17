@@ -12,7 +12,7 @@ const Header = ()=>{
     return(
         <div className=" overflow-x-hidden w-full bg-secondary">
              {/* for mobile */}
-             <div className=" w-full h-[100px] flex flex-row justify-end items-center md:hidden">
+             <div className=" w-full  h-[60px] flex flex-row justify-end items-center md:hidden">
                 <GiHamburgerMenu className="size-9 pr-2"/>
                 </div>
                 
@@ -21,7 +21,7 @@ const Header = ()=>{
 
             {/* container */}
             <div className="hidden md:block">
-            <div className="h-[100px] grid grid-cols-3 place-items-center ">
+            <div className="md:h-[80px] xl:h-[100px] grid grid-cols-3 place-items-center ">
 
                 {/* left logo*/}
                 <div className="h-[41px] flex gap-[5px] xl:mr-auto">

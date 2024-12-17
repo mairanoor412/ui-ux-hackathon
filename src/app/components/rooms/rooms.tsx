@@ -20,20 +20,20 @@ const Rooms = ()=>{
             
             {/* image-1 */}
             <div className="col-span-3 relative">
-                <div className="hidden xl:block">
-                <div className="flex flex-row items-end absolute bottom-0 left-[20px] ">
-                <div className="w-[217px] h-[130px] bg-secondary opacity-[75%]  flex flex-col justify-center items-center ">
-                    <div className=" h-[24px] flex items-center gap-[8px]">
-                        <p> 01 </p>
-                        <hr className="border-[#616161] border-[1px] w-[27px]"></hr>
-                        <p className="text-[16px] font-[500]">Bed Room</p>
+                <div className="">
+                <div className="flex flex-row items-end absolute top-[165px] left-[5px] sm:top-[215px] sm:left-[7px] md:left-[10px] lg:top-[430px] lg:left-[8px] xl:top-[425px] xl:left-[20px] z-20 ">
+                <div className="w-[54px] h-[32px] sm:w-[72px] sm:h-[43px] md:w-[115px] md:h-[65px] lg:w-[170px] lg:h-[100px] xl:w-[217px] xl:h-[130px] bg-secondary opacity-[75%]  flex flex-col justify-center items-center ">
+                    <div className="gap-[1px] md:gap-[5px] lg:h-[24px] flex items-center lg:gap-[8px]">
+                        <p className="text-[7px] sm:text-[8px] md:text-[12px] lg:text-[15px]"> 01 </p>
+                        <hr className="w-[5px] sm:w-[7px] border-[#616161] border-[1px] lg:w-[27px]"></hr>
+                        <p className="text-[7px] sm:text-[8px] md:text-[12px] lg:text-[16px]  font-[500]">Bed Room</p>
                     </div>
 
-                    <p className="text-[#3A3A3A] text-[28px] font-[600]">Inner Peace</p>
+                    <p className="text-[#3A3A3A] text-[7px] sm:text-[11px] md:text-[14px] lg:text-[28px] font-[600]">Inner Peace</p>
                 </div>
 
-                <div className="w-[48px] h-[48px] bg-[#B88E2F] flex justify-center items-center">
-                <FaArrowRight className="text-secondary size-5" />
+                <div className="lg:w-[48px] lg:h-[48px] bg-[#B88E2F] flex justify-center items-center">
+                <FaArrowRight className="text-secondary size-3 sm:size-4 md:size-5" />
                 </div>
                 </div>
                 </div>

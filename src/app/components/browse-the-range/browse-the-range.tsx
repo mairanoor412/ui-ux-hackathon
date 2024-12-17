@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+  
+
 
 const BrowseTheRange = ()=>{
     return(
@@ -41,9 +43,11 @@ const BrowseTheRange = ()=>{
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }
 
 export default BrowseTheRange;
+
+

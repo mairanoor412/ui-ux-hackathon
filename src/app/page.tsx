@@ -5,6 +5,8 @@ import OurProducts from "./components/our-products/our-products";
 import Rooms from "./components/rooms/rooms";
 import Furniture from "./components/furniture/furniture";
 import Footer from "./components/footer/footer";
+import Carousels from "./components/caroursel/carousel";
+
 
 
 
@@ -16,6 +18,7 @@ const Home = ()=>{
       <div>
       
         <HeroSection></HeroSection>
+        {/* <Carousels></Carousels> */}
         <BrowseTheRange></BrowseTheRange>
         <OurProducts></OurProducts>
         <Rooms></Rooms>
