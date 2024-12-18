@@ -48,11 +48,11 @@ const HeroSection = ()=>{
         <div className="w-full   overflow-x-hidden relative">
             
             {/* background image */}
-            <div className="sm:h-[300px] md:h-[70vh] lg:h-[90vh] xl:h-[716.83px]">
-            <div className="bg-[url('/image/hero-section/scandinavian-interior-mockup-wall-decal-background-1.png')] h-[30vh] sm:h-[45vh] md:h-[70vh] lg:h-[90vh] xl:h-[716.83px]  bg-cover bg-center   ">
-           </div>
+            
+            <div className="bg-[url('/image/hero-section/scandinavian-interior-mockup-wall-decal-background-1.png')] h-[250px] sm:h-[45vh] md:h-[70vh] lg:h-[90vh] xl:h-[716.83px]  bg-cover bg-center   ">
+           
             {/* content */}
-            <div className="w-[150px] px-3 py-2 absolute top-[40px] right-[25px]  sm:w-[240px] sm:px-6 sm:py-3 sm:top-[50px] sm:right-0 sm:mr-3 md:w-[350px] md:px-5 md:pb-5  md:top-[140px] md:right-0 md:mr-10 lg:w-[450px] lg:px-10 lg:py-10 lg:top-[150px] lg:right-0 lg:mr-16   xl:w-[663px] xl:h-[443px] bg-[#FFF3E3]  xl:top-[165px] xl:left-[739px] rounded-[5px] sm:rounded-[10px]">
+            <div className="w-[150px] px-3 py-2 absolute top-[80px] right-[25px]  sm:w-[240px] sm:px-6 sm:py-3 sm:top-[50px] sm:right-0 sm:mr-3 md:w-[350px] md:px-5 md:pb-5  md:top-[140px] md:right-0 md:mr-10 lg:w-[450px] lg:px-10 lg:py-10 lg:top-[150px] lg:right-0 lg:mr-16   xl:w-[663px] xl:h-[443px] bg-[#FFF3E3]  xl:top-[165px] xl:left-[739px] rounded-[5px] sm:rounded-[10px]">
                 {/* container */}
                 <div className="flex flex-col gap-[2px] sm:gap-[4px] md:gap-[7px] lg:gap-[6px] xl:gap-2 xl:w-[561px] xl:h-[344px]  xl:mx-auto  ">
                     <p className="text-[6px] sm:text-[9px] md:text-[12px] lg:text-[14px] xl:text-[16px] font-[600]"> New Arrival </p>
