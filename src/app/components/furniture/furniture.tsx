@@ -7,7 +7,7 @@ const Furniture = ()=>{
              {/* heading */}
              <div className="grid grid-cols-1 place-items-center py-14">
              <p className="text-[10px] sm:text-[14px] md:text-[16px] xl:text-[20px] text-[#666666]"> Share your setup with </p>
-                <h1 className="text-[16px] sm:text-[20px] md:text-[25px] font-[700] xl:text-[40px] "> #FuniroFurniture </h1>
+                <h1 className="text-[22px] sm:text-[25px] md:text-[30px] lg:text-[32px] font-[700] xl:text-[40px] "> #FuniroFurniture </h1>
             </div>
             {/* container */}
             <div className=" grid grid-cols-12 grid-rows-2 gap-1 sm:gap-2 lg:gap-3  xl:h-auto">

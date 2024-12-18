@@ -9,7 +9,7 @@ const OurProducts = ()=>{
       <div className=" overflow-x-hidden w-full bg-secondary">
         {/* heading */}
         <div className="grid grid-cols-1 place-items-center py-14">
-            <h1 className="text-[16px] sm:text-[20px] md:text-[25px] font-[700] xl:text-[40px] "> Our Products </h1>
+            <h1 className="text-[22px] sm:text-[25px] md:text-[30px] lg:text-[32px] font-[700] xl:text-[40px] "> Our Products </h1>
             
         </div>
 
