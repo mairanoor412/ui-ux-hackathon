@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-  
 
 
-const BrowseTheRange = ()=>{
-    return(
+
+const BrowseTheRange = () => {
+    return (
         <div className="overflow-x-hidden w-full  bg-secondary">
             {/* heading */}
             <div className="grid grid-cols-1 place-items-center py-14">
@@ -19,31 +19,31 @@ const BrowseTheRange = ()=>{
 
                     {/* card-1 */}
                     <div>
-                        <Image src="/image/browse/1-Mask Group.png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]"  />
+                        <Image src="/image/browse/1-Mask Group.png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]" />
                         <div className="w-[285px]  xl:w-[381px] flex justify-center">
-                        <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Dining </p>
+                            <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Dining </p>
                         </div>
                     </div>
 
 
-                     {/* card-2 */}
-                     <div>
-                        <Image src="/image/browse/2-Image-living room.png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]"  />
+                    {/* card-2 */}
+                    <div>
+                        <Image src="/image/browse/2-Image-living room.png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]" />
                         <div className="w-[285px] xl:w-[381px] flex justify-center">
-                        <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Living </p>
+                            <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Living </p>
                         </div>
                     </div>
 
 
-                     {/* card-3 */}
-                     <div className="md:hidden lg:block">
-                        <Image src="/image/browse/3-Mask Group (1).png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]"  />
+                    {/* card-3 */}
+                    <div className="md:hidden lg:block">
+                        <Image src="/image/browse/3-Mask Group (1).png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]" />
                         <div className="w-[285px] xl:w-[381px] flex justify-center">
-                        <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Bedroom </p>
+                            <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Bedroom </p>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
     )
 }
