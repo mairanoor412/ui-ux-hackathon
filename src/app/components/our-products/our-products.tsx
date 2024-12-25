@@ -95,12 +95,12 @@ const OurProducts = () => {
                     {/* card-3 */}
                     <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -50% </div>
-                        <Image src="\image\products\3-image 3.png" alt="image" width={50} height={50} className=" rounded-t-[5px]" />
+                        <Image src="/image/products/3-image 3.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
                         <div className=" h-[99px] pl-3 mt-4">
 
                             <div className="flex flex-col gap-3">
-                                <h1 className="text-[24px] font-[600] text-[#3A3A3A] "> Lolito </h1>
+                                <h1 className="text-[24px] font-[600] text-[#3A3A3A]"> Lolito </h1>
                                 <p className="text-[16px] font-[500] text-[#898989]"> Luxury big sofa </p>
                             </div>
 
@@ -138,7 +138,7 @@ const OurProducts = () => {
 
                     {/* card-5 */}
                     <div className="w-[285px] h-[446px]  rounded-[5px] bg-[#F4F5F7]">
-                        <Image src="/image/products/5-images.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
+                        <Image src="/image/products/5-Images.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
                         <div className=" h-[99px] pl-3 mt-4">
 
