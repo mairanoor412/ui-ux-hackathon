@@ -96,6 +96,9 @@ const Shop = () => {
 
 
 
+
+
+
                     {/* card-2 */}
                     <div className="w-[285px] h-[446px]  opacity-[72%] z-20 rounded-[5px] relative">
                         <div className="absolute inset-0 bg-[#3A3A3A] opacity-[72%]  rounded-[5px]"></div>
@@ -145,6 +148,8 @@ const Shop = () => {
                         </div>
 
                     </div>
+
+
 
 
 
