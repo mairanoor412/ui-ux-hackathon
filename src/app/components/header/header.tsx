@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import { LiaUserCheckSolid } from "react-icons/lia";
 import { IoSearchOutline } from "react-icons/io5";
@@ -5,16 +6,20 @@ import { IoIosHeartEmpty } from "react-icons/io";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Link from "next/link";
+import { useState } from "react";
+import ResponsiveMenu from "../responsive-menu/responsive-menu";
 
 
 
 const Header = () => {
+    const [open, setopen] = useState(false)
+
     return (
         <div className=" overflow-x-hidden w-full bg-secondary">
-            {/* for mobile */}
+            {/* for mobile
             <div className=" w-full  h-[60px] flex flex-row justify-end items-center md:hidden">
                 <GiHamburgerMenu className="size-9 pr-2" />
-            </div>
+            </div> */}
 
             <div className="xl:w-[1286px] xl:mx-auto">
 
@@ -24,7 +29,7 @@ const Header = () => {
                     <div className="md:h-[80px] xl:h-[100px] grid grid-cols-3 place-items-center ">
 
                         {/* left logo*/}
-                        <div className="h-[41px] flex gap-[5px] xl:mr-auto">
+                        <div className="h-[41px] flex gap-[5px] xl:mr-auto ">
                             <div>
                                 <Image src="/image/header/Meubel House_Logos-05.png" alt="logo" width={50} height={41} className="relative top-[2px]" />
                             </div>
@@ -62,13 +67,22 @@ const Header = () => {
                             <MdOutlineShoppingCart className="w-[28px] h-[28px]" />
                         </div>
 
-
                     </div>
+
                 </div>
 
-
+                {/*Mobile Hamburger */}
+                <div className=" w-full  h-[60px] flex flex-row justify-end items-center md:hidden" onClick={()=>
+                    setopen(!open)
+                }>
+                        <GiHamburgerMenu className="size-10 pr-5" />
+                    </div>
 
             </div>
+
+            {/* Mobile Sidebar */}
+            <ResponsiveMenu open={open} />
+
         </div>
     )
 }
