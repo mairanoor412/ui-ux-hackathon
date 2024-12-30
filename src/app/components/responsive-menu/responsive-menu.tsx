@@ -3,14 +3,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const ResponsiveMenu = ({ open }: any) => {
     return (
-    <AnimatePresence >
+    <AnimatePresence mode="wait">
 
         {open && (
             <motion.div
                 initial={{ opacity: 0, y: -100 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -100 }}
-                transition={{ duration: 0.5 }}
+               
                 className="absolute top-10 left-0 w-full h-screen z-20"
             >
                 <div className="bg-[#B88E2F] opacity-80 py-10 m-6 rounded-3xl md:hidden">
@@ -43,3 +43,6 @@ export default ResponsiveMenu;
 
 
 
+
+
+// transition={{ duration: 0.5 }}
