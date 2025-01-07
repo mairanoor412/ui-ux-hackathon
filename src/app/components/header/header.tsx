@@ -16,11 +16,7 @@ const Header = () => {
 
     return (
         <div className=" overflow-x-hidden w-full bg-secondary">
-            {/* for mobile
-            <div className=" w-full  h-[60px] flex flex-row justify-end items-center md:hidden">
-                <GiHamburgerMenu className="size-9 pr-2" />
-            </div> */}
-
+           
             <div className="xl:w-[1286px] xl:mx-auto">
 
 
@@ -56,6 +52,7 @@ const Header = () => {
                                 <li className="text-[16px] font-[500] text-primary">
                                     <Link href="/contact" target="_blank"> Contact </Link>
                                 </li>
+
                             </ul>
                         </div>
 
