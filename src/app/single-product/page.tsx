@@ -111,7 +111,7 @@ const SingleProduct = () => {
                         {/* Color */}
                         <div className="flex flex-col gap-1">
                             <p className="text-[#9F9F9F] text-[12px] md:text-[14px]"> Color </p>
-                            <div className="flex">
+                            <div className="flex gap-3">
                                 <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-[#816DFA] "></p>
                                 <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-primary"></p>
                                 <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-[#B88E2F]"></p>
