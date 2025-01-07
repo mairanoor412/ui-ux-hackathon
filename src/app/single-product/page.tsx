@@ -39,7 +39,7 @@ const SingleProduct = () => {
                     {/* left Image */}
                     <div className="grid grid-cols-4">
                         {/* small */}
-                        <div className="col-span-1 ml-auto">
+                        <div className="col-span-1 ml-auto flex flex-col gap-2">
                             {/* 1 */}
                             <div>
                                 <Image src="/image/single-product/Mask group (1).png" alt="image" width={76} height={80} />
@@ -63,7 +63,7 @@ const SingleProduct = () => {
 
                         {/* big */}
                         <div className="bg-[#F9F1E7] col-span-3 m-2 md:ml-10 md:mr-24 flex justify-center items-center ">
-                            <Image src="/image/single-product/Asgaard sofa 3.png" alt="image" width={423} height={500} />
+                            <Image src="/image/single-product/Asgaard sofa 3.png" alt="image" width={423} height={230} className="h-[230px]" />
                         </div>
 
                     </div>
@@ -72,49 +72,49 @@ const SingleProduct = () => {
 
 
                     {/* Right Data */}
-                    <div>
-                        <h1 className="text-primary text-[30px] xl:text-[42px]"> Asgaard sofa </h1>
-                        <p className="text-[#9F9F9F] font-[500] text-[15px] lg:text-[24px]"> Rs. 250,000.00 </p>
+                    <div className="flex flex-col gap-1 pl-2 md:pl-0">
+                        <h1 className="text-primary text-[22px] xl:text-[42px]"> Asgaard sofa </h1>
+                        <p className="text-[#9F9F9F] font-[500] text-[12px] lg:text-[24px]"> Rs. 250,000.00 </p>
 
-                        <div>
-                            <div className="w-[124px] flex">
+                        <div className="flex items-center justify-between py-2">
+                            <div className="md:w-[124px] flex">
                                 <IoIosStar className="text-[#FFC700]" />
                                 <IoIosStar className="text-[#FFC700]" />
                                 <IoIosStar className="text-[#FFC700]" />
                                 <IoIosStar className="text-[#FFC700]" />
                                 <IoIosStar className="text-[#FFC700]" />
                             </div>
-                            <p className="text-[#9F9F9F] text-[10px] lg:text-[13px]"> 5 Customer Review </p>
+                            <p className="text-[#9F9F9F] text-[8px] md:text-[13px]"> 5 Customer Review </p>
                         </div>
 
                         {/* paragraph */}
-                        <p className="text-primary text-[10px] lg:text-[13px]"> Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</p>
+                        <p className="text-primary text-[8px] lg:text-[13px] "> Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</p>
 
                         {/* Size */}
-                        <div>
-                            <p className="text-[#9F9F9F] text-[14px]"> Size </p>
-                            <div className="flex">
-                                <div className="w-[30px] h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center">
-                                    <p className=" text-[13px]"> L </p>
+                        <div className="flex flex-col gap-1">
+                            <p className="text-[#9F9F9F] text-[12px] md:text-[14px]"> Size </p>
+                            <div className="flex gap-3">
+                                <div className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
+                                    <p className="text-[10px] md:text-[13px]"> L </p>
                                 </div>
 
-                                <div className="w-[30px] h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center">
-                                    <p className=" text-[13px]"> XL </p>
+                                <div className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
+                                    <p className=" text-[10px] md:text-[13px]"> XL </p>
                                 </div>
 
-                                <div className="w-[30px] h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center">
-                                    <p className=" text-[13px]"> XS </p>
+                                <div className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
+                                    <p className=" text-[10px] md:text-[13px]"> XS </p>
                                 </div>
                             </div>
                         </div>
 
                         {/* Color */}
-                        <div >
-                            <p className="text-[#9F9F9F] text-[14px]"> Color </p>
+                        <div className="flex flex-col gap-1">
+                            <p className="text-[#9F9F9F] text-[12px] md:text-[14px]"> Color </p>
                             <div className="flex">
-                                <p className=" w-[30px] h-[30px] rounded-full bg-[#816DFA] "></p>
-                                <p className=" w-[30px] h-[30px] rounded-full bg-primary"></p>
-                                <p className=" w-[30px] h-[30px] rounded-full bg-[#B88E2F]"></p>
+                                <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-[#816DFA] "></p>
+                                <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-primary"></p>
+                                <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-[#B88E2F]"></p>
                             </div>
                         </div>
                     </div>
