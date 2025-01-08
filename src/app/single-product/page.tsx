@@ -205,6 +205,7 @@ const SingleProduct = () => {
                                 <AiFillTwitterCircle size={21} />
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
