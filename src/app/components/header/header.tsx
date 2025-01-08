@@ -61,7 +61,9 @@ const Header = () => {
                             <LiaUserCheckSolid className="w-[28px] h-[28px]" />
                             <IoSearchOutline className="w-[28px] h-[28px]" />
                             <IoIosHeartEmpty className="w-[28px] h-[28px]" />
+                            <Link href="/cart">
                             <MdOutlineShoppingCart className="w-[28px] h-[28px]" />
+                            </Link>
                         </div>
 
                     </div>

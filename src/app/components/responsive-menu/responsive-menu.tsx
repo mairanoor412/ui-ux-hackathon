@@ -31,6 +31,10 @@ const ResponsiveMenu = ({ open }: any) => {
                         <li className="text-[16px] font-[500] text-primary">
                             <Link href="/single-product" target="_blank" className="hover:underline hover:text-black"> Single Product </Link>
                         </li>
+
+                        <li className="text-[16px] font-[500] text-primary">
+                            <Link href="/cart" target="_blank" className="hover:underline hover:text-black"> cart </Link>
+                        </li>
                     </ul>
                 </div>
             </motion.div>
