@@ -11,7 +11,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 const SingleProduct = () => {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             {/* 1st section */}
             {/* container */}
             <div className=" w-auto   bg-[#F9F1E7] ">
@@ -205,10 +205,141 @@ const SingleProduct = () => {
                                 <AiFillTwitterCircle size={21} />
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
+
+
+            {/* 3rd section */}
+            <div>
+                <hr className="border-[1px] border-[1px solid #D9D9D9] my-8"></hr>
+                <div className="flex flex-col md:flex-row md:w-[649px] items-center justify-center md:justify-between mx-auto pt-3">
+                    <p className="text-primary font-[500] text-[24px]"> Description </p>
+                    <p className="text-[#9F9F9F] font-[500] text-[24px]"> Additional Information</p>
+                    <p className="text-[#9F9F9F] font-[500] text-[24px]"> Reviews [5] </p>
+                </div>
+
+                <div className="px-4 sm:px-10 md:px-14 lg:w-[900px] xl:w-[1026px] flex flex-col gap-9 py-10 mx-auto text-justify">
+                    <p className="text-[#9F9F9F] text-[16px]"> Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. </p>
+                    <p className="text-[#9F9F9F] text-[16px]"> Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-7 px-4 sm:px-10 md:px-14 lg:px-5 xl:px-0">
+                <Image src="/image/single-product/Mask group (3).png" alt="image" width={605} height={348} className=" bg-[#F9F1E7]  mx-auto md:mx-0 rounded-[10px] lg:ml-auto" />
+                <Image src="/image/single-product/Mask group (4).png" alt="image" width={605} height={348} className=" bg-[#F9F1E7]  mx-auto md:mx-0 rounded-[10px]" />
+            </div>
+
+            <hr className="border-[1px] border-[1px solid #D9D9D9] my-16"></hr>
+
+            {/* 4th related product section */}
+
+             {/* heading */}
+             <div className="grid grid-cols-1 place-items-center ">
+                <h1 className="text-[22px] sm:text-[25px] md:text-[30px] lg:text-[32px] font-[500] xl:text-[36px] "> Related Products </h1>
+            </div>
+
+            {/* container */}
+            <div  className="xl:w-[1236px] xl:m-auto pt-14">
+                <div className="grid grid-cols-1 justify-items-center gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 rounded-[5px]">
+
+                    {/* card-1 */}
+
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative">
+                        <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
+
+                        <Image src="/image/products/1-image 1.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
+                        {/* bottom data */}
+                        <div className=" h-[99px] pl-3 mt-4">
+
+                            <div className="flex flex-col gap-3">
+                                <h1 className="text-[24px] font-[600] text-[#3A3A3A] "> Syltherine </h1>
+                                <p className="text-[16px] font-[500] text-[#898989]"> Stylish cafe chair </p>
+                            </div>
+
+                            <div className="flex flex-row h-[30px] items-center mt-2 gap-3">
+                                <p className="text-[20px] font-[600] text-[#3A3A3A]">Rp 2.500.000 </p>
+                                <p className="text-[16px] text-[#B0B0B0] line-through">Rp 3.500.000</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    {/* card-2 */}
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px] relative ">
+                        <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
+
+                        <Image src="/image/products/image 2.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
+
+                        {/* bottom data */}
+                        <div className=" h-[99px] pl-3 mt-4 bg-[#F4F5F7]">
+
+                            <div className="flex flex-col gap-3">
+                                <h1 className="text-[24px] font-[600] text-[#3A3A3A] "> Syltherine </h1>
+                                <p className="text-[16px] font-[500] text-[#898989]"> Stylish cafe chair </p>
+                            </div>
+
+                            <div className="flex flex-row h-[30px] items-center mt-2 gap-3">
+                                <p className="text-[20px] font-[600] text-[#3A3A3A]">Rp 2.500.000 </p>
+                                <p className="text-[16px] text-[#B0B0B0] line-through">Rp 3.500.000</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    {/* card-3 */}
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block">
+                        <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -50% </div>
+                        <Image src="/image/products/3-image 3.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
+                        {/* bottom data */}
+                        <div className=" h-[99px] pl-3 mt-4">
+
+                            <div className="flex flex-col gap-3">
+                                <h1 className="text-[24px] font-[600] text-[#3A3A3A] "> Lolito </h1>
+                                <p className="text-[16px] font-[500] text-[#898989]"> Luxury big sofa </p>
+                            </div>
+
+                            <div className="flex flex-row h-[30px] items-center mt-2 gap-3">
+                                <p className="text-[20px] font-[600] text-[#3A3A3A]">Rp 7.000.000 </p>
+                                <p className="text-[16px] text-[#B0B0B0] line-through">Rp 14.000.000</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    {/* card-4 */}
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative">
+                        <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#2EC1AC] rounded-full absolute top-[18px] right-[15px] z-20"> New </div>
+                        <Image src="/image/products/4-image 4.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
+                        {/* bottom data */}
+                        <div className=" h-[99px] pl-3 mt-4">
+
+                            <div className="flex flex-col gap-3">
+                                <h1 className="text-[24px] font-[600] text-[#3A3A3A] "> Respira </h1>
+                                <p className="text-[16px] font-[500] text-[#898989]"> Outdoor bar table and stool </p>
+                            </div>
+
+                            <div className="flex flex-row h-[30px] items-center mt-2 gap-3">
+                                <p className="text-[20px] font-[600] text-[#3A3A3A]"> Rp 500.000 </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            {/* button */}
+            <div className=" flex justify-center mb-24 w-[245px]  border-[1px] border-[#B88E2F]  rounded-[5px] m-auto my-10">
+                <button className="w-[245px] py-[12px] text-[16px] font-[600] text-[#B88E2F]"> Show More</button>
+            </div>
+
         </div>
     )
 }
