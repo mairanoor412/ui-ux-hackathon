@@ -38,13 +38,13 @@ const SingleProduct = () => {
 
 
             {/* 2nd section */}
-            <div className="py-8 px-2">
+            <div className="py-8 px-4 sm:px-8">
                 {/* grid container */}
-                <div className="grid grid-cols-2">
+                <div className="grid md:grid-cols-2">
                     {/* left Image */}
                     <div className="grid grid-cols-4 ">
                         {/* small */}
-                        <div className="col-span-1 ml-auto flex flex-col gap-2 lg:gap-8 xl:gap-10">
+                        <div className="col-span-1 md:mx-auto lg:mx-0 lg:ml-auto  flex flex-col gap-1 sm:gap-2 lg:gap-8 xl:gap-10">
                             {/* 1 */}
                             <div>
                                 <Image src="/image/single-product/Mask group (1).png" alt="image" width={76} height={80} />
@@ -67,8 +67,8 @@ const SingleProduct = () => {
                         </div>
 
                         {/* big image*/}
-                        <div className="bg-[#F9F1E7]  col-span-3 m-2 lg:ml-10 lg:mr-24 flex justify-center items-center rounded-[10px] ">
-                            <Image src="/image/single-product/Asgaard sofa 3.png" alt="image" width={423} height={230} className="h-[230px]" />
+                        <div className="bg-[#F9F1E7]  col-span-3 m-2 lg:ml-10 lg:mr-16 flex justify-center items-center rounded-[10px] ">
+                            <Image src="/image/single-product/Asgaard sofa 3.png" alt="image" width={423} height={250} className="h-[250px]" />
                         </div>
 
                     </div>
@@ -77,11 +77,11 @@ const SingleProduct = () => {
 
 
                     {/* Right Data */}
-                    <div className="flex flex-col gap-1 md:gap-2  pl-2 md:pl-5  ">
-                        <h1 className="text-primary text-[22px] md:text-[35px] xl:text-[42px]"> Asgaard sofa </h1>
-                        <p className="text-[#9F9F9F] font-[500] text-[12px] lg:text-[24px]"> Rs. 250,000.00 </p>
+                    <div className="flex flex-col gap-1 md:gap-2 pt-8  md:pl-5  ">
+                        <h1 className="text-primary text-[30px] md:text-[35px] xl:text-[42px]"> Asgaard sofa </h1>
+                        <p className="text-[#9F9F9F] font-[500] text-[15px] lg:text-[24px]"> Rs. 250,000.00 </p>
 
-                        <div className="flex items-center justify-between py-2 sm:py-3 w-[160px] sm:w-[200px] md:w-[290px]">
+                        <div className="flex items-center justify-between py-2 sm:py-3 w-[250px] md:w-[290px]">
                             <div className="md:w-[124px] flex">
                                 <IoIosStar className="text-[#FFC700]" />
                                 <IoIosStar className="text-[#FFC700]" />
@@ -89,37 +89,37 @@ const SingleProduct = () => {
                                 <IoIosStar className="text-[#FFC700]" />
                                 <IoIosStar className="text-[#FFC700]" />
                             </div>
-                            <p className="text-[#9F9F9F] text-[8px] md:text-[13px]"> 5 Customer Review </p>
+                            <p className="text-[#9F9F9F] text-[13px]"> 5 Customer Review </p>
                         </div>
 
                         {/* paragraph */}
-                        <p className="text-primary text-[8px] md:text-[10px] lg:text-[13px] md:w-[350px] lg:w-[420px] lg:leading-[19.5px] "> Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</p>
+                        <p className="text-primary text-[10px] lg:text-[13px] md:w-[350px] lg:w-[420px] lg:leading-[19.5px] "> Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</p>
 
                         {/* Size */}
-                        <div className="flex flex-col gap-1 sm:gap-2">
-                            <p className="text-[#9F9F9F] text-[12px] md:text-[14px]"> Size </p>
+                        <div className="flex flex-col pt-2 gap-2">
+                            <p className="text-[#9F9F9F] text-[14px]"> Size </p>
                             <div className="flex gap-3">
-                                <div className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
-                                    <p className="text-[10px] md:text-[13px]"> L </p>
+                                <div className="w-[30px] h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
+                                    <p className="text-[13px]"> L </p>
                                 </div>
 
-                                <div className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
-                                    <p className=" text-[10px] md:text-[13px]"> XL </p>
+                                <div className=" w-[30px] h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
+                                    <p className="text-[13px]"> XL </p>
                                 </div>
 
-                                <div className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
-                                    <p className=" text-[10px] md:text-[13px]"> XS </p>
+                                <div className="w-[30px] h-[30px] bg-[#F9F1E7]  hover:bg-[#B88E2F]  text-primary hover:text-secondary flex justify-center items-center rounded-[5px]">
+                                    <p className="text-[13px]"> XS </p>
                                 </div>
                             </div>
                         </div>
 
                         {/* Color */}
-                        <div className="flex flex-col gap-1 sm:gap-2 sm:pt-2 md:pt-3">
+                        <div className="flex flex-col gap-2 pt-3">
                             <p className="text-[#9F9F9F] text-[12px] md:text-[14px]"> Color </p>
                             <div className="flex gap-3">
-                                <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-[#816DFA] "></p>
-                                <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-primary"></p>
-                                <p className=" w-[20px] h-[20px] md:w-[30px] md:h-[30px] rounded-full bg-[#B88E2F]"></p>
+                                <p className="w-[30px] h-[30px] rounded-full bg-[#816DFA] "></p>
+                                <p className=" w-[30px] h-[30px] rounded-full bg-primary"></p>
+                                <p className=" w-[30px] h-[30px] rounded-full bg-[#B88E2F]"></p>
                             </div>
                         </div>
 
@@ -173,14 +173,14 @@ const SingleProduct = () => {
                     </button>
                 </div>
 
-               
+
 
                 {/* bottom part */}
                 <div className=" grid grid-cols-2">
-                    {/* <div className="flex gap-5 md:justify-end md:pr-10 lg:pr-44"> */}
+
                     <div className="md:col-span-1"> </div>
                     <div className="col-span-2 md:col-span-1 mt-7 flex gap-5 border-t-[1px] border-[#D9D9D9]">
-                   
+
                         <div className="pt-10 flex flex-col gap-2 md:gap-3">
                             <p className="text-[#9F9F9F] text-[16px]"> SKU </p>
                             <p className="text-[#9F9F9F] text-[16px]"> Category </p>
