@@ -43,22 +43,28 @@ const Cart = () => {
                     </div>
 
 
-                    <div className="flex flex-col items-center md:flex-row md:pt-8 xl:pt-16  md:gap-6">
-                        <div className="md:bg-[#F9F1E7] rounded-[10px] md:w-[108px] md:h-[105px] lg:w-[108px] lg:h-[105px]">
-                            <Image src="/image/cart/Asgaard sofa 5.png" alt="image" width={130} height={100} className=" lg:w-[108px] lg:h-[105px]" />
+                    <div className="flex flex-col items-center lg:flex-row md:pt-8 xl:pt-16  md:gap-6 lg:gap-0">
+                        <div className="md:bg-[#F9F1E7] rounded-[10px] md:w-[150px] md:h-[130px] lg:w-[108px] lg:h-[105px]">
+                            <Image src="/image/cart/Asgaard sofa 5.png" alt="image" width={130} height={100} className=" md:w-[150px] md:h-[130px] lg:w-[108px] lg:h-[105px]" />
                         </div>
                         <div className="lg:w-[573px] md:flex md:gap-5 lg:gap-0 lg:justify-around ">
                             <div className=" flex items-center gap-3 md:gap-5 lg:gap-10">
-                                <p className="text-[#9F9F9F] text-[10px] lg:text-[14px] xl:text-[16px]"> Asgaard sofa</p>
-                                <p className="text-[#9F9F9F] text-[10px] lg:text-[14px] xl:text-[16px]"> Rs. 250,000.00</p>
+                                <p className="text-[#9F9F9F] text-[12px] md:text-[14px] xl:text-[16px]"> Asgaard sofa</p>
+                                <p className="text-[#9F9F9F] text-[12px] md:text-[14px] xl:text-[16px]"> Rs. 250,000.00</p>
                             </div>
-                            <div className="flex items-center gap-3 lg:gap-10 md:gap-5 pt-3 md:pt-0">
-                                <p className="w-[18] h-[18px] lg:w-[25px] lg:h-[25px] xl:w-[32px] xl:h-[32px] border-[1px] border-[#9F9F9F] rounded-[5px] text-primary text-[10px] lg:text-[14px] xl:text-[16px] text-center"> 1</p>
-                                <p className="text-primary text-[12px] lg:text-[14px] xl:text-[16px]"> Rs. 250,000.00</p>
-                                <AiFillDelete className="text-[#B88E2F] md:hidden" />
+                            <div className="flex items-center gap-3 lg:gap-10 md:gap-5 pt-3 md:pt-0 ">
+                                <div className="w-[25px] h-[25px] md:w-[30px] md:h-[30px] xl:w-[32px] xl:h-[32px] border-[1px] border-[#9F9F9F] rounded-[5px] flex justify-center items-center">
+                                    <p className=" text-primary text-[12px] lg:text-[14px] xl:text-[16px]"> 1</p>
+                                </div>
+                                <p className="text-primary text-[14px] lg:text-[14px] xl:text-[16px]"> Rs. 250,000.00</p>
+                                <div className="flex items-start  justify-start h-6">
+                                <AiFillDelete className="text-[#B88E2F] size-5 lg:hidden" />
+                                </div>
                             </div>
                         </div>
-                        <AiFillDelete className="text-[#B88E2F] lg:size-6 hidden md:block" />
+                        <div className="flex items-start  justify-start h-7">
+                            <AiFillDelete className="text-[#B88E2F] lg:size-6 hidden lg:block" />
+                        </div>
 
 
                     </div>
@@ -66,20 +72,20 @@ const Cart = () => {
 
 
                 {/* right */}
-                <div className="bg-[#F9F1E7] h-[200px] md:h-[280px] xl:w-[393px] xl:h-[390px] col-span-1 min-w-[50px] mr-2 flex flex-col items-center gap-4  md:gap-7 xl:gap-8 mt-5 md:my-8 lg:mr-20 xl:mt-16 py-2 ">
-                    <h1 className="text-[15px] md:text-[25px] xl:text-[32px] font-[600] text-primary">Cart Totals</h1>
-                    <div className="flex items-center gap-1 sm:gap-2 md:gap-4 xl:gap-10 pt-2 xl:pt-7">
-                        <p className="text-primary font-[500] text-[8px] sm:text-[10px] md:text-[12px] xl:text-[16px]"> Subtotal</p>
-                        <p className="text-[#9F9F9F] font-[500] text-[8px] sm:text-[10px] md:text-[12px] xl:text-[16px]"> Rs. 250,000.00</p>
+                <div className="bg-[#F9F1E7] h-[200px] md:h-[280px] xl:w-[393px] xl:h-[390px] col-span-1 min-w-[50px] mr-2 flex flex-col items-center gap-2  md:gap-7 xl:gap-8 mt-5 md:my-8 lg:mr-20 xl:mt-16 py-2 ">
+                    <h1 className="text-[16px] md:text-[25px] xl:text-[32px] font-[600] text-primary">Cart Totals</h1>
+                    <div className="flex flex-col md:flex-row items-center gap-[1px] sm:gap-1 md:gap-4 xl:gap-10 pt-2 xl:pt-7">
+                        <p className="text-primary font-[500] text-[14px]  xl:text-[16px]"> Subtotal</p>
+                        <p className="text-[#9F9F9F] font-[500] text-[12px]  xl:text-[16px]"> Rs. 250,000.00</p>
                     </div>
 
-                    <div className="flex items-center gap-1 sm:gap-2 md:gap-4 xl:gap-10">
-                        <p className="text-primary font-[500] text-[8px] sm:text-[10px] md:text-[12px] xl:text-[16px]"> Total </p>
-                        <p className="text-[#B88E2F] font-[500] text-[9px] sm:text-[12px] md:text-[14px] xl:text-[20px]"> Rs. 250,000.00</p>
+                    <div className="flex flex-col md:flex-row items-center gap-[1px] pt-[2px] sm:gap-1 md:gap-4 xl:gap-10">
+                        <p className="text-primary font-[500] text-[14px]  xl:text-[16px]"> Total </p>
+                        <p className="text-[#B88E2F] font-[500] text-[13px] xl:text-[20px]"> Rs. 250,000.00</p>
                     </div>
 
                     {/* button */}
-                    <button className=" w-[90px] h-[25px] md:w-[150px] md:h-[35px] lg:w-[222px] lg:h-[58.95px] text-center text-primary text-[12px] mt-4 xl:text-[20px] border-[1px] border-primary rounded-[15px]"> Check Out</button>
+                    <button className=" w-[95px] h-[30px] sm:w-[110px] sm:h-[40px] md:w-[170px] md:h-[45px] lg:w-[222px] lg:h-[58.95px] text-center text-primary text-[13px] mt-4 xl:text-[20px] border-[1px] border-primary rounded-[15px]"> Check Out</button>
                 </div>
 
             </div>
