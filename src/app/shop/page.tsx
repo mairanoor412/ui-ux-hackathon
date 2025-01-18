@@ -74,7 +74,7 @@ const Shop = () => {
                 <div className="grid grid-cols-1 justify-items-center gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 rounded-[5px]">
 
                     {/* card-1 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
 
                         <Image src="/image/products/1-image 1.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
@@ -100,7 +100,7 @@ const Shop = () => {
 
 
                     {/* card-2 */}
-                    <div className="w-[285px] h-[446px]  opacity-[72%] z-20 rounded-[5px] relative">
+                    <div className="w-[285px] h-[446px]  opacity-[72%] z-20 rounded-[5px] relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="absolute inset-0 bg-[#3A3A3A] opacity-[72%]  rounded-[5px]"></div>
                         {/* Add to Card */}
                         <div className="w-[252px] h-[96px] flex flex-col items-center gap-[24px] m-auto absolute top-[175px] left-[16px] ">
@@ -154,7 +154,7 @@ const Shop = () => {
 
 
                     {/* card-3 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -50% </div>
                         <Image src="/image/products/3-image 3.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
@@ -175,7 +175,7 @@ const Shop = () => {
 
 
                     {/* card-4 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#2EC1AC] rounded-full absolute top-[18px] right-[15px] z-20"> New </div>
                         <Image src="/image/products/4-image 4.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
@@ -197,7 +197,7 @@ const Shop = () => {
 
                     {/* card-1 */}
 
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
 
                         <Image src="/image/products/1-image 1.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
@@ -219,7 +219,7 @@ const Shop = () => {
 
 
                     {/* card-2 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px] relative ">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px] relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
 
                         <Image src="/image/products/image 2.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
@@ -242,7 +242,7 @@ const Shop = () => {
 
 
                     {/* card-3 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -50% </div>
                         <Image src="/image/products/3-image 3.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
@@ -263,7 +263,7 @@ const Shop = () => {
 
 
                     {/* card-4 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#2EC1AC] rounded-full absolute top-[18px] right-[15px] z-20"> New </div>
                         <Image src="/image/products/4-image 4.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
@@ -285,7 +285,7 @@ const Shop = () => {
 
                     {/* card-1 */}
 
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
 
                         <Image src="/image/products/1-image 1.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
@@ -307,7 +307,7 @@ const Shop = () => {
 
 
                     {/* card-2 */}
-                    <div className="w-[285px] h-[446px]  rounded-[5px] bg-[#F4F5F7] relative">
+                    <div className="w-[285px] h-[446px]  rounded-[5px] bg-[#F4F5F7] relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
 
                         <Image src="/image/products/image 2.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
@@ -330,7 +330,7 @@ const Shop = () => {
 
 
                     {/* card-3 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -50% </div>
                         <Image src="/image/products/3-image 3.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
@@ -351,7 +351,7 @@ const Shop = () => {
 
 
                     {/* card-4 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#2EC1AC] rounded-full absolute top-[18px] right-[15px] z-20"> New </div>
                         <Image src="/image/products/4-image 4.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
@@ -373,7 +373,7 @@ const Shop = () => {
 
                     {/* card-1 */}
 
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7] rounded-[5px]  relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
 
                         <Image src="/image/products/1-image 1.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
@@ -395,7 +395,7 @@ const Shop = () => {
 
 
                     {/* card-2 */}
-                    <div className="w-[285px] h-[446px]  rounded-[5px] bg-[#F4F5F7] relative">
+                    <div className="w-[285px] h-[446px]  rounded-[5px] bg-[#F4F5F7] relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -30% </div>
 
                         <Image src="/image/products/image 2.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
@@ -418,7 +418,7 @@ const Shop = () => {
 
 
                     {/* card-3 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative lg:hidden xl:block transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#E97171] rounded-full absolute top-[18px] right-[15px] z-20"> -50% </div>
                         <Image src="/image/products/3-image 3.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
@@ -439,7 +439,7 @@ const Shop = () => {
 
 
                     {/* card-4 */}
-                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative">
+                    <div className="w-[285px] h-[446px] bg-[#F4F5F7]  rounded-[5px] relative transition-transform transform hover:scale-105 hover:translate-y-2 duration-500 ease-out">
                         <div className="h-[48px] w-[48px] flex items-center justify-center text-[16px] font-[500] text-secondary bg-[#2EC1AC] rounded-full absolute top-[18px] right-[15px] z-20"> New </div>
                         <Image src="/image/products/4-image 4.png" alt="image" width={285} height={301} className=" rounded-t-[5px]" />
                         {/* bottom data */}
@@ -461,17 +461,17 @@ const Shop = () => {
                 </div>
 
                 <div className="h-[90px] flex justify-center items-end gap-[8px] md:gap-[38px] mt-8">
-                    <div className="w-[60px] h-[60px] flex justify-center items-center  bg-[#B88E2F] rounded-[10px]">
-                        <p className="text-[20px] text-secondary"> 1 </p>
+                    <div className="w-[60px] h-[60px] flex justify-center items-center bg-[#F9F1E7] hover:bg-[#B88E2F] rounded-[10px]">
+                        <p className="text-[20px] text-primary hover:text-secondary"> 1 </p>
                     </div>
-                    <div className="w-[60px] h-[60px] flex justify-center items-center bg-[#F9F1E7] rounded-[10px] ">
-                        <p className="text-[20px] text-primary"> 2 </p>
+                    <div className="w-[60px] h-[60px] flex justify-center items-center bg-[#F9F1E7] hover:bg-[#B88E2F] rounded-[10px] ">
+                        <p className="text-[20px] text-primary hover:text-secondary"> 2 </p>
                     </div>
-                    <div className="w-[60px] h-[60px] flex justify-center items-center bg-[#F9F1E7] rounded-[10px]">
-                        <p className="text-[20px] text-primary"> 4 </p>
+                    <div className="w-[60px] h-[60px] flex justify-center items-center bg-[#F9F1E7] hover:bg-[#B88E2F] rounded-[10px]">
+                        <p className="text-[20px] text-primary hover:text-secondary"> 4 </p>
                     </div>
-                    <div className="w-[98px] h-[60px] flex justify-center items-center  bg-[#F9F1E7] rounded-[10px]">
-                        <p className="text-[20px] font-[300] text-primary"> Next </p>
+                    <div className="w-[98px] h-[60px] flex justify-center items-center  bg-[#F9F1E7] hover:bg-[#B88E2F] rounded-[10px]">
+                        <p className="text-[20px] font-[300] text-primary hover:text-secondary"> Next </p>
                     </div>
 
                 </div>

@@ -14,7 +14,7 @@ const Rooms = () => {
                     <div className="flex flex-col gap-5">
                         <h1 className="w-[110px] text-[12px] font-[700] sm:text-[20px]   md:text-[30px] sm:w-[190px] md:w-[300px] lg:w-[400px] lg:text-[36px] lg:leading-[48px] text-[#3A3A3A]  xl:w-[422px] xl:text-[40px]"> 50+ Beautiful rooms inspiration </h1>
                         <p className="w-[120px] text-[8px]  font-[500] sm:text-[10px]   md:text-[12px] sm:w-[190px] md:w-[300px]  text-[#616161] lg:w-[334px] lg:text-[14px]  xl:w-[368px] xl:text-[16px]"> Our designer already made a lot of beautiful prototipe of rooms that inspire you </p>
-                        <button className=" w-[70px] py-[4px] text-[7px] rounded-[5px] sm:w-[88px] sm:py-[6px] sm:text-[8px] md:w-[118px] md:py-[9px] md:text-[12px] lg:w-[176px] lg:py-[12px] lg:text-[16px] bg-[#B88E2F]  font-[600] "> Explore More </button>
+                        <button className=" w-[70px] py-[4px] text-[7px] rounded-[5px] sm:w-[88px] sm:py-[6px] sm:text-[8px] md:w-[118px] md:py-[9px] md:text-[12px] lg:w-[176px] lg:py-[12px] lg:text-[16px] bg-[#B88E2F]  hover:text-secondary hover:font-[700]  font-[600] transition-all duration-300 ease-in-out transform hover:scale-105 hover:translate-y-[-2px] "> Explore More </button>
                     </div>
                 </div>
 

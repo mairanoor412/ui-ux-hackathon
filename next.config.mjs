@@ -3,6 +3,10 @@ const nextConfig = {
     eslint: {
         ignoreDuringBuilds: true,
     },
+
+    experimental: {
+        reactRoot: false,
+    },
 };
 
-export default nextConfig;
+

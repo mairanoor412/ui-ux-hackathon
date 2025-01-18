@@ -13,12 +13,12 @@ const BrowseTheRange = () => {
             </div>
 
             {/* cards */}
-            <div className=" xl:w-[1183px] xl:m-auto">
+            <div className="h-auto xl:w-[1183px] xl:m-auto">
                 {/* container */}
                 <div className="grid grid-cols-1 justify-items-center gap-10 md:grid-cols-2  lg:grid-cols-3">
 
                     {/* card-1 */}
-                    <div>
+                    <div className="transition-transform transform hover:scale-95 hover:translate-y-2 duration-500 ease-out">
                         <Image src="/image/browse/1-Mask Group.png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]" />
                         <div className="w-[285px]  xl:w-[381px] flex justify-center">
                             <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Dining </p>
@@ -27,7 +27,7 @@ const BrowseTheRange = () => {
 
 
                     {/* card-2 */}
-                    <div>
+                    <div className="transition-transform transform hover:scale-95 hover:translate-y-2 duration-500 ease-out">
                         <Image src="/image/browse/2-Image-living room.png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]" />
                         <div className="w-[285px] xl:w-[381px] flex justify-center">
                             <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Living </p>
@@ -36,7 +36,7 @@ const BrowseTheRange = () => {
 
 
                     {/* card-3 */}
-                    <div className="md:hidden lg:block">
+                    <div className="transition-transform transform hover:scale-95 hover:translate-y-2 duration-500 ease-out md:hidden lg:block ">
                         <Image src="/image/browse/3-Mask Group (1).png" alt="image" width={381} height={440} className="w-[285px] xl:w-[381px]" />
                         <div className="w-[285px] xl:w-[381px] flex justify-center">
                             <p className="text-[18px] md:text-[20px] xl:text-[24px] font-[600] text-[#333333] pt-3"> Bedroom </p>

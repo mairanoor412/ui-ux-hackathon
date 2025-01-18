@@ -36,10 +36,10 @@ const Cart = () => {
                 {/* left */}
                 <div className="mt-5 mx-3 md:mt-8 xl:mt-16 lg:ml-20 lg:mr-14 xl:mx-0 xl:w-[817px] h-[215px] xl:pr-7  col-span-2">
                     <div className="bg-[#F9F1E7] h-[35px] md:h-[45px] xl:h-[55px] flex items-center justify-between md:justify-around">
-                        <p className="text-primary font-[500] text-[12px] md:text-[14px] xl:text-[16px]"> Product </p>
-                        <p className="text-primary font-[500] text-[12px] md:text-[14px] xl:text-[16px]"> Price </p>
-                        <p className="text-primary font-[500] text-[12px] md:text-[14px] xl:text-[16px]"> Quantity </p>
-                        <p className="text-primary font-[500] text-[12px] md:text-[14px] xl:text-[16px]">Subtotal</p>
+                        <p className="text-primary font-[500] text-[10px] md:text-[14px] xl:text-[16px]"> Product </p>
+                        <p className="text-primary font-[500] text-[10px] md:text-[14px] xl:text-[16px]"> Price </p>
+                        <p className="text-primary font-[500] text-[10px] md:text-[14px] xl:text-[16px]"> Quantity </p>
+                        <p className="text-primary font-[500] text-[10px] md:text-[14px] xl:text-[16px]">Subtotal</p>
                     </div>
 
 
@@ -76,12 +76,12 @@ const Cart = () => {
                     <h1 className="text-[16px] md:text-[25px] xl:text-[32px] font-[600] text-primary">Cart Totals</h1>
                     <div className="flex flex-col md:flex-row items-center gap-[1px] sm:gap-1 md:gap-4 xl:gap-10 pt-2 xl:pt-7">
                         <p className="text-primary font-[500] text-[14px]  xl:text-[16px]"> Subtotal</p>
-                        <p className="text-[#9F9F9F] font-[500] text-[12px]  xl:text-[16px]"> Rs. 250,000.00</p>
+                        <p className="text-[#9F9F9F] font-[500] text-[10px]  xl:text-[16px]"> Rs. 250,000.00</p>
                     </div>
 
                     <div className="flex flex-col md:flex-row items-center gap-[1px] pt-[2px] sm:gap-1 md:gap-4 xl:gap-10">
                         <p className="text-primary font-[500] text-[14px]  xl:text-[16px]"> Total </p>
-                        <p className="text-[#B88E2F] font-[500] text-[13px] xl:text-[20px]"> Rs. 250,000.00</p>
+                        <p className="text-[#B88E2F] font-[500] text-[12px] xl:text-[20px]"> Rs. 250,000.00</p>
                     </div>
 
                     {/* button */}
